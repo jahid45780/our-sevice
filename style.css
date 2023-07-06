@@ -27,3 +27,38 @@
     color: crimson;
 
 }
+.banner-img{
+    width: 300px;
+    margin: 7px;
+}
+.banner-container{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    justify-items: center;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px;
+
+}
+.para{
+    font-size: 10px;
+    margin: 15px;
+}
+.btn{
+    background-color: darkcyan;
+    padding: 10px;
+    border: none;
+    color: red;
+    border-radius: 3px;
+    margin: 15px;
+    cursor: pointer;
+}
