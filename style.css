@@ -90,3 +90,25 @@
     font-size: 30px;
     margin: 15px;
 }
+.box-img{
+    height: 100px;
+    width: 150px;
+    border-radius: 7px;
+    margin: 6px;
+}
+.box{
+height: 210px;
+width: 200px;
+box-shadow: 20px 20px 25px cornsilk;
+background-color: black;
+padding: 15px;
+color: azure;
+text-align: center;
+
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(17, 1, 1);
+}
