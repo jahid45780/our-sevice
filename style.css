@@ -31,6 +31,10 @@
     width: 300px;
     margin: 7px;
 }
+.banner-img:hover{
+    cursor: zoom-in;
+
+}
 .banner-container{
     
     display: flex;
@@ -41,6 +45,7 @@
     background-image: url("background.webp");
     background-repeat: no-repeat;
     justify-items: center;
+    background-size: cover;
 
 }
 .title{
@@ -50,7 +55,7 @@
 
 }
 .para{
-    font-size: 10px;
+    font-size: 20px;
     margin: 15px;
 }
 .btn{
@@ -61,4 +66,27 @@
     border-radius: 3px;
     margin: 15px;
     cursor: pointer;
+}
+.btn:hover{
+   color: cadetblue;
+   background-color: brown;
+}
+
+.about-container{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+.about{
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(70, 8, 8);
+}
+.title-2{
+    font-size: 30px;
+    margin: 15px;
 }
